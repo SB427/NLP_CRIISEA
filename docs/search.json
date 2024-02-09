@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "NLP_CRIISEA.html#introduction",
+    "href": "NLP_CRIISEA.html#introduction",
+    "title": "NLP pour les sciences sociales",
+    "section": "Introduction",
+    "text": "Introduction\n\n\nObjectif : Présenter un panorama des méthodes NLP\nNatural Language Processing / Traitement Automatique du Langage :\n\nTraiter des données textuelles massives\nAssisté par ordinateur : logiciels dédiés, langages informatiques (R, Python)\nPour répondre à une problématique de recherche spécifique\n\n\n\nQuelles sources de données ?\nQuelles applications ?\nQuelles méthodes d’analyse ?\nQuelles difficultés ?"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-sources-de-données",
+    "href": "NLP_CRIISEA.html#quelles-sources-de-données",
+    "title": "NLP pour les sciences sociales",
+    "section": "1. Quelles sources de données ?",
+    "text": "1. Quelles sources de données ?\nTous types de corpus de textes :\n\n\ndes articles : journalistiques, scientifiques, …\ndes rapports : publics, d’entreprises, …\ndes publications artistiques : littérature, paroles, synopsis, …\ndes manuels : scolaires, des essais, …\ndes discours / prises de parole : politiques, syndicalistes, …\ndes contenus générés par les utilisateurs (UGC) : réseaux sociaux, blogs, commentaires, enquêtes / sondages, …\n…\n\n\n\n\n\nComment constituer les corpus ?\n\n\n\nDatasets, bases de données, APIs, enquêtes, webscraping, …"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-sources-de-données-1",
+    "href": "NLP_CRIISEA.html#quelles-sources-de-données-1",
+    "title": "NLP pour les sciences sociales",
+    "section": "1. Quelles sources de données ?",
+    "text": "1. Quelles sources de données ?\n\n\n\nBoegershausen, J., Datta, H., Borah, A., & Stephen, A. T. (2022). Fields of Gold: Scraping Web Data for Marketing Insights. Journal of Marketing, 86(5), 1‑20. https://doi.org/10.1177/00222429221100750"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-sources-de-données-2",
+    "href": "NLP_CRIISEA.html#quelles-sources-de-données-2",
+    "title": "NLP pour les sciences sociales",
+    "section": "1. Quelles sources de données ?",
+    "text": "1. Quelles sources de données ?\n\n341 613 avis clients concernant 220 sites web\n\n\nBalech, S. (2024). TP_pets : Une base de données pour la recherche sur les avis clients [jeu de données]."
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-applications",
+    "href": "NLP_CRIISEA.html#quelles-applications",
+    "title": "NLP pour les sciences sociales",
+    "section": "2. Quelles applications ?",
+    "text": "2. Quelles applications ?\nQuelques exemples, non exhaustifs :\n\n\n\n\n\n\n\n\nBibliométrie\nÉtudes qualitatives\nÉtudes quantitatives\n\n\n\n\nRevue de littérature systématique\nExplorer les concepts, les discours\nTransformer le texte en indicateurs\n\n\nAnalyse des mots-clés, des abstracts\nMots fréquents, co-occurences\nComptage simple\n\n\nIdentifications des thématiques récurrentes\nIdentification des thématiques\nProbalités associées aux topics\n\n\nRéseaux d’auteurs, de citations, de références\nRéseaux sémantiques\nMétriques des réseaux\n\n\n\nUne collection d’outils d’analyse pour répondre à une problématique de recherche"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-applications-1",
+    "href": "NLP_CRIISEA.html#quelles-applications-1",
+    "title": "NLP pour les sciences sociales",
+    "section": "2. Quelles applications ?",
+    "text": "2. Quelles applications ?\nRevue de littérature systématique\n \n\n\n\nKumar, S., Kar, A. K., & Ilavarasan, P. V. (2021). Applications of text mining in services management : A systematic literature review. International Journal of Information Management Data Insights, 1(1), 100008. https://doi.org/10.1016/j.jjimei.2021.100008"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-applications-2",
+    "href": "NLP_CRIISEA.html#quelles-applications-2",
+    "title": "NLP pour les sciences sociales",
+    "section": "2. Quelles applications ?",
+    "text": "2. Quelles applications ?\nÉtudes qualitatives\n\n \n\n\n \n\n\n\nLefrançois, A., Balech, S., & Changeur, S. (2022). Transgression et consommation: Revue intégrative et proposition d’un agenda de recherche. 21èmes Journées Normandes de Recherche sur la Consommation, Le Havre, France."
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-applications-3",
+    "href": "NLP_CRIISEA.html#quelles-applications-3",
+    "title": "NLP pour les sciences sociales",
+    "section": "2. Quelles applications ?",
+    "text": "2. Quelles applications ?\nÉtudes quantitatives\n\n\n\nTirunillai, S., & Tellis, G. J. (2012). Does Chatter Really Matter? Dynamics of User-Generated Content and Stock Performance. Marketing Science, 31(2), 198‑215. https://doi.org/10.1287/mksc.1110.0682"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-applications-4",
+    "href": "NLP_CRIISEA.html#quelles-applications-4",
+    "title": "NLP pour les sciences sociales",
+    "section": "2. Quelles applications ?",
+    "text": "2. Quelles applications ?\nÉtudes quantitatives\n\n \n\n\n\n\n\n\nBalech, S. (2022). Une application du modèle ELM ( Elaboration Likelihood Model ) au partage d’information sur Twitter: Étude du rôle de la forme du message et du profil de l’émetteur. Innovations, n° 69(3), 129‑161.https://doi.org/10.3917/inno.pr2.0135"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nCorpus : une collection de documents\nDocument : une collection de tokens + des métadonnées\nDes hypothèses sur la distribution des mots dans les documents\n\n2 grandes approches du texte :\n\nSyntaxique : prendre en compte la fonction du mot et sa place dans la phrase\nBag of words : un document est un ensemble de tokens"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-1",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-1",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\n3 grandes familles d’outils :\n\nÀ partir des fréquences : wordcloud, co-occurrences, modèles de topics, embeddings\nÀ partir de l’annotation : construction des phrases, réseaux sémantiques, dépendances syntaxiques, entités nommées, analyse du sentiment, approches par dictionnaire, classification\nStylométrie : mesures de lisibilité, de diversité lexicale, longueur de phrases, utilisation des pronoms, des émojis, la casse, la conjugaison, …\n\n\nLes étapes de l’analyse :\n\nConstitution du corpus\nPré-traitements\nAnnotations\nAnalyse à proprement parler"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-2",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-2",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nQR : technological innovation increases the number of economic  conditional clauses\nCorpus : the whole U.S. state legislation from 1964 to 2000\n\n \n\n\nVannoni, M. (2022). A Political Economy Approach to the Grammar of Institutions: Theory and Methods. Policy Studies Journal, 50(2), 453‑471. https://doi.org/10.1111/psj.12427"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-3",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-3",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nQR : quelle est la contribution des attributs clés de l’expérience  hôtelière à la satisfaction ?\nCorpus : 24 301 commentaires de Trip Advisor sur 52 hôtels\n\n \n\n\nBalech, S., & Benavent, C. (2022). Le rôle des dimensions de l’expérience dans la satisfaction client : Une application au cas de l’industrie hôtelière en Polynésie Française. 38ème Congrès Internation de l’AFM, 28‑38, Tunis, Tunisie."
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-4",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-4",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nQR : how patterns of speaking are created, picked up, and  ignored or propagated\nCorpus : 44,913 speeches from the Archives Parlementaires  of the French Revolution Digital Archive  from 1787 to 1794\n \n\n\n\n\nBarron, A. T. J., Huang, J., Spang, R. L., & DeDeo, S. (2018). Individuals, institutions, and innovation in the debates of the French Revolution. Proceedings of the National Academy of Sciences, 115(18), 4607‑4612. https://doi.org/10.1073/pnas.1717729115"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-5",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-5",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nQR : analyze the cultural dimensions of social class and their evolution  over the twentieth century\nCorpus : survey of cultural associations to a total of 398 respondents  on Amazon Mechanical Turk + a similar dataset collected in the 1950’s  Google Ngram texts from 1900 to 2012 : collection of 5-grams\n\n \n\n\n\nKozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The Geometry of Culture: Analyzing Meaning through Word Embeddings. American Sociological Review, 89(5), 769‑981. https://doi.org/10.1177/0003122419877135"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-6",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-6",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nQR : investigate the predictive power of the inferred personality  for their future reviews\nCorpus : Yelp Academic Dataset focused on the “restaurant” category  160,578 reviews written by 74,480 reviewers for 4,244 restaurants\n\n \n\n\nLiu, A. X., Li, Y., & Xu, S. X. (2021). Assessing the Unacquainted: Inferred Reviewer Personality and Review Helpfulness. MIS Quarterly, 45(3), 1113‑1148. https://doi.org/10.25300/MISQ/2021/14375"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-méthodes-danalyse-7",
+    "href": "NLP_CRIISEA.html#quelles-méthodes-danalyse-7",
+    "title": "NLP pour les sciences sociales",
+    "section": "3. Quelles méthodes d’analyse ?",
+    "text": "3. Quelles méthodes d’analyse ?\nQR : how social media brand images relate to brand engagement\nCorpus : Instagram (N = 43,585) and Twitter (N = 214,536)  with 185 visible beverages and food brands\n\n\n\n\n\n\nHartmann, J., Heitmann, M., Schamp, C., & Netzer, O. (2021). The Power of Brand Selfies. Journal of Marketing Research, 58(6), 1159‑1177. https://doi.org/10.1177/00222437211037258"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#quelles-difficultés",
+    "href": "NLP_CRIISEA.html#quelles-difficultés",
+    "title": "NLP pour les sciences sociales",
+    "section": "4. Quelles difficultés ?",
+    "text": "4. Quelles difficultés ?\n\nLa disponibilités des ressources : les données, les modèles et leur documentation, les dictionnaires, …\nLa qualité des données : l’exhaustivité, la complétude, la fiabilité, l’orthographe, l’encodage, …\nLes compétences informatiques : trouver le bon langage / le bon logiciel, trouver les données et les modèles, charger les données, comprendre la structure des données, mettre en œuvre les analyses, mettre en forme les résultats, exporter les résultats, …\nLe matériel informatique et la puissance de calcul : le volume des données, le temps de calcul, les capacités de calcul, le coût énergétique / environnemental, …"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#conclusion",
+    "href": "NLP_CRIISEA.html#conclusion",
+    "title": "NLP pour les sciences sociales",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nUn panorama loin d’être exhaustif\nUn vaste champs d’outils méthodologiques et d’applications possibles\nDe très nombreuses ressources en ligne\nUne grande communauté de chercheurs de tous domaines\n\n   \n\nMerci pour votre attention"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#liens",
+    "href": "NLP_CRIISEA.html#liens",
+    "title": "NLP pour les sciences sociales",
+    "section": "Liens",
+    "text": "Liens\nLe séminaire du Collège de France : Apprendre les langues aux machines - B. Sagot\nNotre projet de livre (toujours en développement) :NLP avec r et en français - un Manuel synthétique\nUn package d’OCR disponible sous R : Tesseract\nUn manuel pour prendre en main R : R for data science\nUn manuel en français pour prendre en main R et le tidyverse : Introduction à R et au tidyverse\nUn manuel pour du text mining en R : Text Mining with R\nUn super package pour du NLP en R : Quanteda\nUn article sur l’utilisation du texte et du NLP pour la recherche (certes en marketing, mais très intéressant pour tous) : Uniting the tribes: Using Text for Marketing Insight"
+  },
+  {
+    "objectID": "NLP_CRIISEA.html#références",
+    "href": "NLP_CRIISEA.html#références",
+    "title": "NLP pour les sciences sociales",
+    "section": "Références",
+    "text": "Références\n\n\nAtelier méthodologique du CRIISEA - 8 février 2024\n\n\n\nBalech, Sophie. 2022. « Une application du modèle ELM (Elaboration Likelihood Model) au partage d’information sur Twitter : étude du rôle de la forme du message et du profil de l’émetteur: » Innovations n° 69 (3): 129‑61. https://doi.org/10.3917/inno.pr2.0135.\n\n\n———. 2024. « TP_pets : une base de données pour la recherche sur les avis clients [jeu de données] ».\n\n\nBalech, Sophie, et Christophe Benavent. 2022. « Le rôle des dimensions de l’expérience dans la satisfaction client : Une application au cas de l’industrie hôtelière en Polynésie Française ». In 38ème Congrès Internation de l’AFM, 28‑38. Tunis, Tunisie.\n\n\nBarron, Alexander T. J., Jenny Huang, Rebecca L. Spang, et Simon DeDeo. 2018. « Individuals, institutions, and innovation in the debates of the French Revolution ». Proceedings of the National Academy of Sciences 115 (18): 4607‑12. https://doi.org/10.1073/pnas.1717729115.\n\n\nBerger, Jonah, Ashlee Humphreys, Stephan Ludwig, Wendy W. Moe, Oded Netzer, et David A. Schweidel. 2020. « Uniting the Tribes: Using Text for Marketing Insight ». Journal of Marketing 84 (1): 1‑25. https://doi.org/10.1177/0022242919873106.\n\n\nBoegershausen, Johannes, Hannes Datta, Abhishek Borah, et Andrew T. Stephen. 2022. « Fields of Gold: Scraping Web Data for Marketing Insights ». Journal of Marketing 86 (5): 1‑20. https://doi.org/10.1177/00222429221100750.\n\n\nHartmann, Jochen, Mark Heitmann, Christina Schamp, et Oded Netzer. 2021. « The Power of Brand Selfies ». Journal of Marketing Research 58 (6): 1159‑77. https://doi.org/10.1177/00222437211037258.\n\n\nKozlowski, Austin C, Matt Taddy, et James A Evans. 2019. « The Geometry of Culture: Analyzing Meaning through Word Embeddings ». American Sociological Review 89 (5): 769‑981. https://doi.org/10.1177/0003122419877135.\n\n\nKumar, Sunil, Arpan Kumar Kar, et P. Vigneswara Ilavarasan. 2021. « Applications of text mining in services management: A systematic literature review ». International Journal of Information Management Data Insights 1 (1): 100008. https://doi.org/10.1016/j.jjimei.2021.100008.\n\n\nLefrançois, Alicia, Sophie Balech, et Sophie Changeur. 2022. « Transgression et consommation: revue intégrative et proposition d’un agenda de recherche ». In. Le Havre, France.\n\n\nLiu, Angela Xia, Yilin Li, et Sean Xin Xu. 2021. « Assessing the Unacquainted: Inferred Reviewer Personality and Review Helpfulness ». MIS Quarterly 45 (3): 1113‑48. https://doi.org/10.25300/MISQ/2021/14375.\n\n\nTirunillai, Seshadri, et Gerard J. Tellis. 2012. « Does Chatter Really Matter? Dynamics of User-Generated Content and Stock Performance ». Marketing Science 31 (2): 198‑215. https://doi.org/10.1287/mksc.1110.0682.\n\n\nVannoni, Matia. 2022. « A Political Economy Approach to the Grammar of Institutions: Theory and Methods ». Policy Studies Journal 50 (2): 453‑71. https://doi.org/10.1111/psj.12427."
+  }
+]

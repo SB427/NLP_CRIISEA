@@ -1,0 +1,349 @@
+---
+title: "NLP pour les sciences sociales"
+subtitle: "**Fini les méthodes du passé !**"
+authors:
+ - name: "Sophie Balech"
+institute: "IAE Amiens - UPJV <br/> sophie.balech@u-picardie.fr"
+date: 2024-02-08
+date-format: "DD/MM/YYYY"
+lang: fr
+format: 
+  revealjs:
+    slide-number: c/t
+    theme: ["styles.scss"]
+    width: 1280
+    height: 720
+    footer: "Atelier méthodologique du CRIISEA - 8 février 2024"
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  error: false
+bibliography: NPL_prez.bib
+editor: visual
+---
+
+
+## Introduction
+
+::: columns
+::: {.column width="60%"}
+[**Objectif**]{style="color: red"} : Présenter un panorama des méthodes NLP
+
+*Natural Language Processing* / Traitement Automatique du Langage :
+
+-   Traiter des données textuelles massives
+
+-   Assisté par ordinateur : logiciels dédiés, [**langages informatiques (R, Python)**]{style="color: darkred"}
+
+-   Pour répondre à une problématique de recherche spécifique
+
+::: fragment
+1.  Quelles sources de données ?
+
+2.  Quelles applications ?
+
+3.  Quelles méthodes d'analyse ?
+
+4. Quelles difficultés ?
+:::
+:::
+
+::: {.column width="40%"}
+![](NLP.png)
+:::
+:::
+
+## 1. Quelles sources de données ?
+
+Tous types de [**corpus de textes**]{style="color: darkred"} :
+
+::: incremental
+-   des articles : journalistiques, scientifiques, ...
+
+-   des rapports : publics, d'entreprises, ...
+
+-   des publications artistiques : littérature, paroles, synopsis, ...
+
+-   des manuels : scolaires, des essais, ...
+
+-   des discours / prise de parole : politiques, syndicalistes, ...
+
+-   des contenus générés par les utilisateurs (UGC) : réseaux sociaux, blogs, commentaires, enquêtes / sondages, ...
+
+-   ...
+:::
+
+::: columns
+::: {.column width="40%"}
+::: fragment
+[**Comment constituer les corpus ?**]{style="color: darkgreen"}
+:::
+:::
+
+::: {.column width="60%"}
+::: fragment
+Datasets, bases de données, APIs, enquêtes, webscraping, ...
+:::
+:::
+:::
+
+## 1. Quelles sources de données ?
+
+![](fieldsofgold.png){.absolute top="35"}
+
+::: aside
+Boegershausen, J., Datta, H., Borah, A., & Stephen, A. T. (2022). Fields of Gold: Scraping Web Data for Marketing Insights. *Journal of Marketing*, 86(5), 1‑20. <https://doi.org/10.1177/00222429221100750>
+:::
+
+## 2. Quelles applications ?
+
+Quelques exemples, non exhaustifs :
+
+| Bibliométrie                                   | Études qualitatives                 | Études quantitatives                   |
+|------------------------|------------------------|------------------------|
+| Revue de littérature systématique              | Explorer les concepts, les discours | Transformer le texte en indicateurs    |
+| Analyse des mots-clés, des abstracts           | Mots fréquents, co-occurences       | Comptage simple                        |
+| Identifications des thématiques récurrentes    | Identification des thématiques      | Probalités d'appartenance aux *topics* |
+| Réseaux d'auteurs, de citations, de références | Réseaux sémantiques                 | Métriques des réseaux                  |
+
+**Une collection d'outils d'analyse pour répondre à une problématique de recherche**
+
+## 2. Quelles applications ?
+
+### Revue de littérature systématique
+
+![](SLR_proc.png){.absolute width="400" height="400"} ![](SLR_wc.png){.absolute right="0" width="800" height="400"}
+
+![](SLR_network.png){.fragment .absolute right="0" top="0" width="600" height="800"}
+
+::: aside
+Kumar, S., Kar, A. K., & Ilavarasan, P. V. (2021). Applications of text mining in services management : A systematic literature review. *International Journal of Information Management Data Insights*, 1(1), 100008. <https://doi.org/10.1016/j.jjimei.2021.100008>
+:::
+
+## 2. Quelles applications ?
+
+### Études qualitatives
+
+::: {.fragment .fade-out fragment-index="1"}
+![](kwic_transgress.png){.absolute left="0" top="150" width="750"} ![](dependenciestransgress.png){.absolute right="0" top="0" height="598"}
+:::
+
+::: {.fragment .fade-in fragment-index="1"}
+![](rainette_freq.png){.absolute right="0" top="100"} ![](rainette_reseau.png){.absolute left="0" bottom="150" height="400"}
+:::
+
+::: aside
+Lefrançois, A., Balech, S., & Changeur, S. (2022). Transgression et consommation: Revue intégrative et proposition d’un agenda de recherche. *21èmes Journées Normandes de Recherche sur la Consommation*, Le Havre, France.
+:::
+
+## 2. Quelles applications ?
+
+### Études quantitatives
+
+![](UGC_stockmarket.png){.absolute top="100" right="200" height="500"}
+
+::: aside
+Tirunillai, S., & Tellis, G. J. (2012). Does Chatter Really Matter? Dynamics of User-Generated Content and Stock Performance. *Marketing Science*, 31(2), 198‑215. <https://doi.org/10.1287/mksc.1110.0682>
+:::
+
+## 2. Quelles applications ?
+
+### Études quantitatives
+
+::: {.fragment .fade-out fragment-index="1"}
+![](modèle_hyp_v2.png){.absolute height="300" top="200" left="0"} ![](figure3.jpg){.absolute right="0" top="100" height="430"}
+:::
+
+::: {.fragment .fade-in fragment-index="1"}
+![](figure9.jpg){.absolute left="200" top="120" height="500"}
+:::
+
+::: aside
+Balech, S. (2022). Une application du modèle ELM ( Elaboration Likelihood Model ) au partage d’information sur Twitter: Étude du rôle de la forme du message et du profil de l’émetteur. *Innovations*, n° 69(3), 129‑161.<https://doi.org/10.3917/inno.pr2.0135>
+:::
+
+## 3. Quelles méthodes d'analyse ?
+
+[**Corpus**]{style="color: darkred"} : une collection de **documents**
+
+[**Document**]{style="color: darkred"} : une collection de [***tokens***]{style="color: darkred"} + des [**métadonnées**]{style="color: darkred"}
+
+Des hypothèses sur la distribution des mots dans les documents
+
+::: fragment
+**2 grandes approches du texte :**
+
+-   [Syntaxique :]{style="color: darkgreen"} prendre en compte la fonction du mot et sa place dans la phrase
+
+-   [*Bag of words* :]{style="color: darkgreen"} un document est un ensemble de *tokens*
+:::
+
+## 3. Quelles méthodes d'analyse ?
+
+**3 grandes familles d'outils :**
+
++ [**À partir des fréquences :**]{style="color: darkgreen"} *wordcloud*, co-occurrences, modèles de *topics*, *embeddings*
+
++ [**À partir de l'annotation :**]{style="color: darkgreen"} construction des phrases, réseaux sémantiques, dépendances syntaxiques, entités nommées, analyse du sentiment, approches par dictionnaire, classification
+
++ [**Stylométrie :**]{style="color: darkgreen"} mesures de lisibilité, de diversité lexicale, longueur de phrases, utilisation des pronoms, des émojis, la casse, la conjugaison, ...
+
+::: fragment
+Les étapes de l'analyse :
+
++ Constitution du corpus
++ Pré-traitements
++ Annotations
++ Analyse à proprement parler
+:::
+
+## 3. Quelles méthodes d'analyse ?
+
+**QR :** technological innovation increases the number of economic <br> conditional clauses
+
+**Corpus :** the whole U.S. state legislation from 1964 to 2000
+
+![](grammar_abstract.png){.absolute height="200" top="0" right="0"}
+
+![](grammar_proc.png){.absolute width="600" top="250" left="0"}
+![](grammar_result.png){.absolute height="300" top="250" right="0"}
+
+
+
+::: aside
+Vannoni, M. (2022). A Political Economy Approach to the Grammar of Institutions: Theory and Methods. *Policy Studies Journal*, 50(2), 453‑471. <https://doi.org/10.1111/psj.12427>
+:::
+
+
+## 3. Quelles méthodes d'analyse ?
+
+**QR :** quelle est la contribution des attributs clés de l'expérience <br> hôtelière à la satisfaction ?
+
+**Corpus :** 24 301 commentaires de Trip Advisor sur 52 hôtels
+
+![](hotel_abstract.png){.absolute width="400" top="0" right="0"}
+
+![](hotel_result2.png){.absolute height="380" top="220" left="0"}
+![](hotel_result.png){.absolute height="380" top="220" right="0"}
+
+
+
+::: aside
+Balech, S., & Benavent, C. (2022). Le rôle des dimensions de l’expérience dans la satisfaction client : Une application au cas de l’industrie hôtelière en Polynésie Française. *38ème Congrès Internation de l’AFM*, 28‑38, Tunis, Tunisie.
+
+:::
+
+## 3. Quelles méthodes d'analyse ?
+
+**QR :** how patterns of speaking are created, picked up, and <br> ignored or propagated
+
+**Corpus :** 44,913 speeches from the Archives Parlementaires <br> of the French
+Revolution Digital Archive <br> from 1787 to 1794
+
+![](frenchrev_abstract1.png){.absolute width="400" top="0" right="0"}
+![](frenchrev_abstract2.png){.absolute width="200" top="80" right="0"}
+
+
+![](frenchrev_result.png){.absolute width="600" bottom="100" left="0"}
+
+
+![](frenchrev_result2.png){.absolute height="500" bottom="80" right="250"}
+
+
+::: aside
+Barron, A. T. J., Huang, J., Spang, R. L., & DeDeo, S. (2018). Individuals, institutions, and innovation in the debates of the French Revolution. *Proceedings of the National Academy of Sciences*, 115(18), 4607‑4612. <https://doi.org/10.1073/pnas.1717729115>
+:::
+
+## 3. Quelles méthodes d'analyse ?
+
+**QR :** analyze the cultural dimensions of social class and their evolution <br> over the twentieth century
+
+**Corpus :** survey of cultural associations to a total of 398 respondents <br> on Amazon Mechanical Turk + a similar dataset collected in the 1950's <br>
+Google Ngram texts from 1900 to 2012 : collection of 5-grams
+ 
+![](classsocial_abstract.png){.absolute height="250" top="0" right="0"}
+
+![](classsocial_vect.png){.absolute height="350" bottom="80" right="0"}
+![](classsocial_result1.png){.absolute height="300" bottom="80" left="0"}
+
+![](classsocial_result2.png){.absolute height="300" bottom="80" left="450"}
+
+::: aside
+Kozlowski, A. C., Taddy, M., & Evans, J. A. (2019). The Geometry of Culture: Analyzing Meaning through Word Embeddings. *American Sociological Review*, 89(5), 769‑981. <https://doi.org/10.1177/0003122419877135>
+
+:::
+
+
+## 3. Quelles méthodes d'analyse ?
+
+**QR :** investigate the predictive power of the inferred personality <br> for their future reviews
+
+**Corpus :** Yelp Academic Dataset focused on the “restaurant” category <br>
+160,578 reviews written by 74,480 reviewers for 4,244 restaurants
+
+![](personality_abstract.png){.absolute height="250" top="0" right="0"}
+
+![](personality_review.png){.absolute height="250" top="300" right="0"}
+![](personality_proc.png){.absolute height="380" bottom="50" left="50"}
+
+
+::: aside
+Liu, A. X., Li, Y., & Xu, S. X. (2021). Assessing the Unacquainted: Inferred Reviewer Personality and Review Helpfulness. *MIS Quarterly*, 45(3), 1113‑1148. <https://doi.org/10.25300/MISQ/2021/14375>
+
+:::
+
+## 3. Quelles méthodes d'analyse ?
+
+**QR :** how social media brand images relate to brand engagement
+
+**Corpus :** Instagram (N = 43,585) and Twitter (N = 214,536) <br> with 185 visible beverages and food brands
+ 
+![](brandselfie_abstract.png){.absolute height="250" top="0" right="0"}
+
+![](brandselfie.png){.absolute height="170" top="250" right="0"}
+
+![](brandselfie_proc.png){.absolute height="200" bottom="60" right="0"}
+
+![](brandselfie_variables.png){.absolute height="400" bottom="70" left="50"}
+
+
+::: aside
+Hartmann, J., Heitmann, M., Schamp, C., & Netzer, O. (2021). The Power of Brand Selfies. *Journal of Marketing Research*, 58(6), 1159‑1177. <https://doi.org/10.1177/00222437211037258>
+
+:::
+
+## 4. Quelles difficultés ?
+
+-   La disponibilités des ressources
+
+-   La qualité des données
+
+-   Les compétences informatiques
+
+-   Le matériel informatique et la puissance de calcul
+
+
+## Conclusion
+
++ Un panorama loin d'être exhaustif
+
++ Un vaste champs d'outils méthodologiques
+
++ De très nombreuses ressources en ligne
+
++ Une grande communauté de chercheurs de tous domaines
+
+Le séminaire du Collège de France : [Apprendre les langues aux machines - B. Sagot](https://www.college-de-france.fr/fr/agenda/seminaire/apprendre-les-langues-aux-machines)
+
+<br> <br> <br> <br>
+
+:::{style="text-align: center"}
+### Merci pour votre attention
+:::
+
+## Références
+---
+nocite: |
+  @*
+---
